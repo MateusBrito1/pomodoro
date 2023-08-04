@@ -1,23 +1,26 @@
 # Pomodoro ⏰
 
-O Pomodoro é um projeto que ajuda você a gerenciar suas tarefas e projetos usando a técnica Pomodoro, um método de gerenciamento de tempo que pode aumentar sua produtividade e foco. Com este aplicativo, você pode nomear suas tarefas ou projetos e definir um tempo máximo de 60 minutos para trabalhar neles. Além disso, você tem a flexibilidade de interromper a contagem do tempo a qualquer momento.
+Pomodoro is a project that helps you manage your tasks and projects using the Pomodoro technique, a time management method that can boost productivity and focus. With this application, you can name your tasks or projects and set a maximum time of 60 minutes to work on them. Additionally, you have the flexibility to interrupt the countdown at any time.
 
-## Como usar 
+## How to Use
 
-- Na página inicial, você encontrará um formulário onde pode definir o nome da sua tarefa/projeto e o tempo desejado em minutos (com um limite máximo de 60 minutos).
-- Clique no botão "Começar" para iniciar a contagem regressiva.
-- Caso conclua o tempo ou deseje encerrar antes, clique em "Interromper" para finalizar a sessão Pomodoro.
-- Na página "History", você poderá acompanhar suas tarefas concluídas, em andamento e as interrompidas, ajudando a monitorar seu progresso e histórico de pomodoros.
+- On the home page, you'll find a form where you can name your task/project and set the desired time in minutes (with a maximum limit of 60 minutes).
+- Click the "Start" button to begin the countdown.
+- If you complete the time or wish to stop earlier, click "Stop" to end the Pomodoro session.
+- In the "History" page, you can track your completed, ongoing, and interrupted tasks, helping you monitor your progress and pomodoro history.
 
-## Tecnologias utilizadas
+## Technologies Used
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+This project was developed using the following technologies:
 
 - React
 - Typescript
-- Biblioteca de roteamento (react-router, react-router-dom)
+- Routing Library (react-router, react-router-dom, or another one used)
 - Styled-components
 - Hook-form
 - Phosphor Icons
 
-Durante o desenvolvimento, exploramos as capacidades do styled-components para estilização e aproveitamos o TypeScript para garantir tipagem e melhorar a segurança do código.
+During development, we explored the capabilities of styled-components for styling and leveraged TypeScript to ensure typing and enhance code safety.
+
+I hope this new text is clearer and more useful for your project. If you wish to add more information or screenshots to your README, feel free to do so. Good luck with your project!
+
