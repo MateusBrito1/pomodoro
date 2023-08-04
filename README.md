@@ -1,27 +1,24 @@
-# React + TypeScript + Vite
+# Pomodoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O Pomodoro é um projeto que ajuda você a gerenciar suas tarefas e projetos usando a técnica Pomodoro, um método de gerenciamento de tempo que pode aumentar sua produtividade e foco. Com este aplicativo, você pode nomear suas tarefas ou projetos e definir um tempo máximo de 60 minutos para trabalhar neles. Além disso, você tem a flexibilidade de interromper a contagem do tempo a qualquer momento.
 
-Currently, two official plugins are available:
+## Como usar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Na página inicial, você encontrará um formulário onde pode definir o nome da sua tarefa/projeto e o tempo desejado em minutos (com um limite máximo de 60 minutos).
+2. Clique no botão "Start" para iniciar a contagem regressiva.
+3. Durante a contagem, você pode pausar a tarefa clicando no botão "Pause".
+4. Caso conclua o tempo ou deseje encerrar antes, clique em "Stop" para finalizar a sessão Pomodoro.
+5. Na página "History", você poderá acompanhar suas tarefas concluídas, em andamento e as interrompidas, ajudando a monitorar seu progresso e histórico de pomodoros.
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- Typescript
+- Biblioteca de roteamento (react-router, react-router-dom ou outra utilizada)
+- Styled-components
+- Hook-form
+- Phosphor Icons
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Durante o desenvolvimento, exploramos as capacidades do styled-components para estilização e aproveitamos o TypeScript para garantir tipagem e melhorar a segurança do código.
