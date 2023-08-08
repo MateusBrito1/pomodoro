@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# 🍅 Pomodoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📝 Description:
+Pomodoro is a project that helps you manage your tasks and projects using the Pomodoro technique, a time management method that can boost productivity and focus. With this application, you can name your tasks or projects and set a maximum time of 60 minutes to work on them. Additionally, you have the flexibility to interrupt the countdown at any time.
 
-Currently, two official plugins are available:
+## ⏳ How to Use
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- On the home page, you'll find a form where you can name your task/project and set the desired time in minutes (with a maximum limit of 60 minutes).
+- Click the "Start" button to begin the countdown.
+- If you complete the time or wish to stop earlier, click "Stop" to end the Pomodoro session.
+- In the "History" page, you can track your completed, ongoing, and interrupted tasks, helping you monitor your progress and pomodoro history.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This project was developed using the following technologies:
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- Typescript
+- Routing Library (react-router, react-router-dom)
+- Styled-components
+- Hook-form
+- Phosphor Icons
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+During development, we explored the capabilities of styled-components for styling and leveraged TypeScript to ensure typing and enhance code safety.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
